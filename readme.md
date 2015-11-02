@@ -17,5 +17,5 @@ Install the repo version in the project directory (you may need to delete `vendo
 Go to the package directory
 > cd vendor/fewagency/twbs-blade
 
-Do one git fetch to store in remotes/origin (not verified if this works or is needed)
-> git fetch origin
+Make the branch push to remote `origin` instead of remote `composer`
+> git branch fluent-html -u origin/fluent-html
