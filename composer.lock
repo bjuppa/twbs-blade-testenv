@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03032d445f2842f453feb3175e1fb584",
-    "content-hash": "bf89c0eadfbcbfe6e756098567f122c8",
+    "hash": "84ddea9c5509128ffe91ee72056b9c26",
+    "content-hash": "5391cc5ee319151237d8ea0c70cc3a44",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -216,6 +216,51 @@
                 "string"
             ],
             "time": "2014-12-20 21:24:13"
+        },
+        {
+            "name": "fewagency/twbs-blade",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fewagency/twbs-blade.git",
+                "reference": "9cd7288a720b9b0cddde89f199bef10926e21d1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fewagency/twbs-blade/zipball/9cd7288a720b9b0cddde89f199bef10926e21d1c",
+                "reference": "9cd7288a720b9b0cddde89f199bef10926e21d1c",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.0.x|5.1.x"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FewAgency\\TwbsBlade\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Björn Nilsved",
+                    "email": "bjorn.nilsved@fewagency.se"
+                }
+            ],
+            "description": "Blade templates for Twitter Bootstrap",
+            "keywords": [
+                "blade",
+                "bootstrap",
+                "laravel",
+                "twbs"
+            ],
+            "time": "2015-08-27 08:14:01"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3665,7 +3710,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fewagency/twbs-blade": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
