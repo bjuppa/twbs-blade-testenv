@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84ddea9c5509128ffe91ee72056b9c26",
-    "content-hash": "5391cc5ee319151237d8ea0c70cc3a44",
+    "hash": "3d20e44728e1795f20ebf57d001cabfe",
+    "content-hash": "96f6d7624641704346d009b416a25042",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -219,7 +219,7 @@
         },
         {
             "name": "fewagency/twbs-blade",
-            "version": "dev-master",
+            "version": "dev-fluent-html",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fewagency/twbs-blade.git",

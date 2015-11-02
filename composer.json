@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.5.9",
     "laravel/framework": "5.1.*",
-    "fewagency/twbs-blade": "@dev"
+    "fewagency/twbs-blade": "dev-fluent-html"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
