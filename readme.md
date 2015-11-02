@@ -4,7 +4,7 @@ Basically a standard [Laravel](http://laravel.com/docs) installation that requir
 
 ## Development installation
 1. Clone the git-repository into a directory of your choice - preferable in your [Homestead virtual machine](http://laravel.com/docs/homestead).
-2. In the project directory, run `composer create-project` to create a default `.env` file.
+2. In the project directory, run `composer create-project` to install dependencies and create a default `.env` file.
 3. Edit your `.env` file to configure your development environment to your liking
 4. Set up the site to be served by a webserver - preferable in your [Homestead.yaml file](http://laravel.com/docs/5.1/homestead#configuring-homestead).
 
@@ -12,10 +12,10 @@ Basically a standard [Laravel](http://laravel.com/docs) installation that requir
 
 ### Set up git repo for twbs-blade
 Install the repo version in the project directory (you may need to delete `vendor/fewagency/twbs-blade` first)
-> composer install fewagency/twbs-blade --prefer-source
+> composer update fewagency/twbs-blade --prefer-source
 
 Go to the package directory
 > cd vendor/fewagency/twbs-blade
 
-Do one git fetch to store in remotes/origin
+Do one git fetch to store in remotes/origin (not verified if this works or is needed)
 > git fetch origin
