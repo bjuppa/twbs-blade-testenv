@@ -14,8 +14,8 @@ Basically a standard [Laravel](http://laravel.com/docs) installation that requir
 Install the repo version in the project directory (you may need to delete the directory `vendor/fewagency/twbs-blade` first)
 > composer update fewagency/twbs-blade --prefer-source
 
-Go to the package directory
+Go into the package directory
 > cd vendor/fewagency/twbs-blade
 
-Make the branch push to remote `origin` instead of remote `composer`
-> git branch fluent-html -u origin/fluent-html
+Make the current branch of the twbs-blade package push to a remote where you have permissions (modify this command as needed)
+> git branch -u origin/fluent-html
