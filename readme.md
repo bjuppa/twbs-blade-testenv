@@ -1,6 +1,6 @@
 # Development environment for the twbs-blade package
 Basically a standard [Laravel](http://laravel.com/docs) installation that requires
-[fewagency/twbs-blade](https://github.com/fewagency/twbs-blade).
+[fewagency/twbs-blade](https://github.com/bjuppa/twbs-blade).
 
 ## Development installation
 1. Clone the git-repository into a directory of your choice - preferable in your [Homestead virtual machine](http://laravel.com/docs/homestead).
